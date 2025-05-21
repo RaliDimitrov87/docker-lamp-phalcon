@@ -3,17 +3,16 @@ Docker instalation with apache + php + mysql + phalcon PHP
 
 ### Commands for docker 
 > enter shell
-<br>
 docker exec -it apache_phalcon bash 
+<br>
 
 > exec command in terminal
-<br>
 docker exec -it apache_phalcon cat  /usr/local/etc/php
+<br>
 
 > Docker image stop 
-<br>
 docker-compose down --volumes
+<br>
 
 > Docker image start 
-<br>
 docker-compose up --build -d
