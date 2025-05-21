@@ -7,6 +7,7 @@ Docker instalation with apache + php + mysql + phalcon PHP
 docker exec -it apache_phalcon bash 
 
 > exec command in terminal
+<br>
 docker exec -it apache_phalcon cat  /usr/local/etc/php
 
 > Docker image stop 
